@@ -19,4 +19,10 @@ nav .navigation img{
 }
 nav .navigation .photo{
     border-radius: 50%;
+    border: 0px solid ;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
