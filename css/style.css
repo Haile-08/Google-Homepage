@@ -24,7 +24,7 @@ nav .navigation .photo{
 .main{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .search{
     display: flex;
@@ -57,10 +57,33 @@ nav .navigation .photo{
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    color: #555;
-    font-size: 14px;
-    border-radius: 4px;
+   
 }
 .button .gs {
     margin-right: 10px;
+    background-color: rgb(218, 212, 212);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.button .ifl{
+    background-color: rgb(218, 212, 212);
+    font-size: 14px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.links{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+.links a{
+    margin-top: 10px;
+    margin-left: 5px;
 }
