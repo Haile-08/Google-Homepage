@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: arial sans-serif;
+    font-family: 'arial' sans-serif;
 }
 
 nav {
@@ -25,4 +25,31 @@ nav .navigation .photo{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search .icons{
+    position: absolute;
+    top: 270px;
+    left: 420px;
+   
+}
+
+.search .icons .search_bar{
+    width: 30px;
+    height: 30px;
+}
+.search .input{
+    width: 40%;
+    height: 50px;
+    border-radius: 30px;
+    border:1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    padding-left: 45px;
+    padding-right: 60px;
+   
 }
